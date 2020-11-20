@@ -1,0 +1,13 @@
+body {
+  background-color: #1b1c45;
+  color: #e9e9ec;
+}
+
+.button {
+  @apply border;
+  @apply border-brand;
+  @apply inline-flex bg-brand h-12 px-5 items-center;
+  @apply text-white;
+  @apply hover:text-brand;
+  @apply hover:bg-transparent;
+}
