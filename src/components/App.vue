@@ -22,7 +22,7 @@
             </div>
             <br />
             <br />
-            <a class="button" href="/">
+            <a class="button" href="https://github.com/xdefilab/Whitepaper">
               WHITEPAPER
               <svg
                 class="w-6 h-6"
