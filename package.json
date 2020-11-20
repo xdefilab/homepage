@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "vite",
-    "build": "vite build",
+    "build": "vite build --outDir build",
     "test": "echo lol"
   },
   "browserslist": {
@@ -23,8 +23,6 @@
     "autoprefixer": "^9",
     "postcss": "^7",
     "prettier": "^2.2.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.1.2",
     "vite": "^1.0.0-rc.9"
