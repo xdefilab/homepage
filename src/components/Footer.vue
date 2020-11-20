@@ -8,9 +8,8 @@
         <div class="md:w-1/4">
           <h4 class="uppercase mb-3 font-medium text-lg">Services</h4>
           <ul class="text-sm">
-            <li><a href="">关于我们</a></li>
-            <li><a href="">常见问题</a></li>
-            <li><a href="">使用效率</a></li>
+            <li><a href="">About US</a></li>
+            <li><a href="">QA</a></li>
           </ul>
         </div>
         <div class="md:w-1/4">
@@ -25,11 +24,12 @@
           <ul class="text-sm">
             <li><a href="">Email: info@xdefi.com</a></li>
             <li><a href="">Wechat: xdefilab</a></li>
+            <li><a href="">Github: https://github.com/xdefilab</a></li>
           </ul>
         </div>
       </div>
       <div class="md:text-center mt-8 text-sm">
-        Copyright @copy; 2020 Bidex Inc. All Rights Reserved.
+        Copyright 2020 XDeFiLab. All Rights Reserved.
       </div>
     </div>
   </footer>

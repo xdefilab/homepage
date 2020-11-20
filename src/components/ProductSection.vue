@@ -17,7 +17,7 @@
             <div class="text-4xl font-medium">{{ title }}</div>
             <div class="mt-3 text-xl text-gray-600" v-html="subtitle"></div>
             <div class="mt-8 flex justify-end">
-              <a href="https://google.com" class="button">
+              <a href="https://swap.kovan.xdefi.com" class="button">
                 <span class="mr-1">Launch</span>
                 <svg
                   class="w-6 h-6"
