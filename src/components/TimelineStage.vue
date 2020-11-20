@@ -1,7 +1,7 @@
 <template>
   <div class="flex w-full" :class="{ 'flex-row-reverse': reverse }">
     <div
-      class="bg-gray-200 py-5 pl-20 pr-10 w-5/12 my-8"
+      class="bg-gray-200 py-5 pl-20 pr-10 my-16 side-card"
       :style="{
         backgroundImage: `url(${image})`,
         backgroundPosition: 'left',
@@ -14,7 +14,7 @@
       </h3>
       <div v-html="cardDescription"></div>
     </div>
-    <div class="w-2/12 relative">
+    <div class="mid-card relative">
       <div
         class="circle"
         :class="{ 'is-active': isActive, 'is-current': stage === currentStage }"
@@ -26,7 +26,7 @@
         v-if="isActive"
       ></div>
     </div>
-    <div class="w-5/12 my-8">
+    <div class="side-card my-16" :class="{ 'text-right': reverse }">
       <h3 class="text-3xl font-medium mb-2">Stage {{ stage }}</h3>
       <div class="text-2xl text-gray-600">{{ title }}</div>
     </div>
@@ -82,6 +82,14 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.side-card {
+  width: calc((100% - 70px) / 2);
+}
+
+.mid-card {
+  width: 70px;
+}
+
 .line {
   background-color: #ccc;
   width: 2px;
