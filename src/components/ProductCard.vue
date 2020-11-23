@@ -5,7 +5,7 @@
       <h3 class="text-3xl font-medium mb-3">{{ title }}</h3>
       <div v-html="subtitle"></div>
       <div class="mt-5">
-        <a href="#" class="button uppercase">{{
+        <a :href="link || '#'" class="button uppercase">{{
           ready ? `launch ${title}` : 'release soon'
         }}</a>
       </div>
@@ -32,6 +32,9 @@ export default defineComponent({
     },
     ready: {
       type: Boolean,
+    },
+    link: {
+      type: String,
     },
   },
 })
