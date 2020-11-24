@@ -57,7 +57,7 @@
       :link="product.link"
     />
 
-    <div class="bg-gray-100 -mt-20 py-32">
+    <div class="bg-gray-100 md:-mt-20 py-16 md:py-32">
       <div
         class="max-w-6xl mx-auto px-5 flex flex-col space-y-8 md:space-x-10 md:space-y-0 md:flex-row"
       >
