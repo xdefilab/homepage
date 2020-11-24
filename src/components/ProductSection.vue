@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-white text-gray-900 py-32 product-section"
+    class="bg-white text-gray-900 py-16 md:py-32 product-section"
     :style="{
       'background-image': wave
         ? `url('${wave === 'up' ? waveUpBg : waveDownBg}')`
@@ -17,8 +17,8 @@
       >
         <div class="md:w-6/12 flex items-center">
           <div>
-            <div class="text-4xl font-medium">{{ title }}</div>
-            <div class="mt-3 text-xl text-gray-600" v-html="subtitle"></div>
+            <div class="text-xl md:text-4xl font-medium">{{ title }}</div>
+            <div class="mt-3 md:text-xl text-gray-600" v-html="subtitle"></div>
             <div
               class="mt-8 flex justify-center"
               :class="{

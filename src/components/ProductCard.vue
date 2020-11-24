@@ -1,13 +1,15 @@
 <template>
-  <div class="bg-white text-gray-900 flex md:flex-col h-56 md:h-auto">
-    <img :src="image" class="w-56 h-auto md:w-auto" />
-    <div class="px-5 py-8 md:text-center w-full">
-      <h3 class="text-3xl font-medium mb-3">{{ title }}</h3>
-      <div v-html="subtitle"></div>
-      <div class="mt-5">
-        <a :href="link || '#'" class="button uppercase">{{
-          ready ? `launch ${title}` : 'release soon'
-        }}</a>
+  <div class="bg-white text-gray-900 flex md:flex-col h-32 md:h-auto">
+    <img :src="image" class="w-32 h-auto md:w-auto" />
+    <div class="px-5 py-2 md:py-10 md:text-center w-full">
+      <h3 class="text-lg md:text-3xl font-medium mb-0 md:mb-3">{{ title }}</h3>
+      <div class="text-xs md:text-base" v-html="subtitle"></div>
+      <div class="mt-2 md:mt-8">
+        <a
+          :href="link || '#'"
+          class="border border-gray-400 hover:bg-brand hover:border-brand hover:text-white px-3 py-1 text-xs uppercase md:py-3 md:text-base md:px-5"
+          >{{ ready ? `launch ${title}` : 'release soon' }}</a
+        >
       </div>
     </div>
   </div>

@@ -8,8 +8,10 @@
       </div>
       <div class="max-w-6xl mx-auto h-full relative z-10 px-5">
         <div class="flex items-center h-full md:w-1/2">
-          <div class="-mt-12">
-            <div class="text-6xl text-white font-medium leading-none">
+          <div class="md:-mt-12">
+            <div
+              class="text-4xl md:text-6xl text-white font-medium leading-none"
+            >
               A Well Established <br />
               DeFi Protocol Stack
             </div>
@@ -227,7 +229,14 @@ export default defineComponent({
 
 .hero {
   background-image: linear-gradient(180deg, #8d10fb 0%, #0ec7bd 100%);
-  height: 690px;
+  @apply py-20;
+}
+
+@screen md {
+  .hero {
+    @apply py-0;
+    height: 690px;
+  }
 }
 
 .hero-bg {
