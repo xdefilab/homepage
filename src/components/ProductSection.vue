@@ -11,12 +11,21 @@
     }"
   >
     <div class="max-w-6xl mx-auto px-5">
-      <div class="flex" :class="{ 'flex-row-reverse': reverse }">
-        <div class="w-6/12 flex items-center">
+      <div
+        class="flex flex-col-reverse text-center md:text-left md:flex-row"
+        :class="{ 'md:flex-row-reverse': reverse }"
+      >
+        <div class="md:w-6/12 flex items-center">
           <div>
             <div class="text-4xl font-medium">{{ title }}</div>
             <div class="mt-3 text-xl text-gray-600" v-html="subtitle"></div>
-            <div class="mt-8 flex justify-end">
+            <div
+              class="mt-8 flex justify-center"
+              :class="{
+                'md:justify-end': !reverse,
+                'md:justify-start': reverse,
+              }"
+            >
               <a :href="link" class="button">
                 <span class="mr-1">Launch</span>
                 <svg
@@ -36,8 +45,15 @@
             </div>
           </div>
         </div>
-        <div class="w-6/12" :class="{ 'text-right': !reverse }">
-          <img :src="image" :alt="title" class="w-9/12 inline-block" />
+        <div
+          class="text-center md:w-6/12"
+          :class="{ 'md:text-right': !reverse }"
+        >
+          <img
+            :src="image"
+            :alt="title"
+            class="mb-10 w-32 md:w-9/12 md:mb-0 inline-block"
+          />
         </div>
       </div>
     </div>

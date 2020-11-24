@@ -1,7 +1,10 @@
 <template>
-  <div class="flex w-full" :class="{ 'flex-row-reverse': reverse }">
+  <div
+    class="flex w-full relative flex-col-reverse md:flex-row pr-5 md:pr-0"
+    :class="{ 'md:flex-row-reverse': reverse }"
+  >
     <div
-      class="bg-gray-200 py-5 pl-20 pr-10 my-16 side-card"
+      class="bg-gray-200 py-5 pl-20 pr-10 md:my-16 mb-16 ml-16 md:ml-0 side-card"
       :style="{
         backgroundImage: `url(${image})`,
         backgroundPosition: 'left',
@@ -14,7 +17,7 @@
       </h3>
       <div v-html="cardDescription"></div>
     </div>
-    <div class="mid-card relative">
+    <div class="mid-card absolute left-2 md:relative">
       <div
         class="circle"
         :class="{ 'is-active': isActive, 'is-current': stage === currentStage }"
@@ -26,7 +29,10 @@
         v-if="isActive"
       ></div>
     </div>
-    <div class="side-card my-16" :class="{ 'text-right': reverse }">
+    <div
+      class="side-card md:my-16 ml-16 mb-5 md:mb-0 md:ml-0"
+      :class="{ 'md:text-right': reverse }"
+    >
       <h3 class="text-3xl font-medium mb-2">Stage {{ stage }}</h3>
       <div class="text-2xl text-gray-600">{{ title }}</div>
     </div>
@@ -82,12 +88,16 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.side-card {
-  width: calc((100% - 70px) / 2);
+@screen md {
+  .side-card {
+    width: calc((100% - 70px) / 2);
+  }
 }
 
 .mid-card {
   width: 70px;
+  top: 0;
+  bottom: 0;
 }
 
 .line {

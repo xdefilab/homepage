@@ -3,8 +3,8 @@
     <Header />
 
     <section class="hero relative overflow-hidden">
-      <div class="hero-bg w-full h-full text-center">
-        <img src="../images/logoBg.png" class="w-8/12 inline-block" alt="" />
+      <div class="hidden lg:block hero-bg w-full h-full text-center">
+        <img src="../images/logoBg.png" class="inline-block -ml-20" alt="" />
       </div>
       <div class="max-w-6xl mx-auto h-full relative z-10 px-5">
         <div class="flex items-center h-full md:w-1/2">
@@ -232,8 +232,11 @@ export default defineComponent({
 
 .hero-bg {
   height: 564px;
-  padding-top: 120px;
   z-index: 1;
   position: absolute;
+  bottom: 0px;
+}
+
+.hero-bg img {
 }
 </style>
