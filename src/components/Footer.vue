@@ -7,7 +7,7 @@
         </div>
         <div class="w-full md:w-1/4">
           <h4 class="uppercase mb-3 font-medium text-lg">Services</h4>
-          <ul class="md:text-sm flex space-x-5 md:space-x-0">
+          <ul class="md:text-sm flex space-x-5 md:flex-col md:space-x-0">
             <li><a href="">About US</a></li>
             <li><a href="">QA</a></li>
           </ul>
