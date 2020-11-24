@@ -74,7 +74,7 @@
     <div class="bg-white text-gray-900 py-32">
       <div class="max-w-6xl mx-auto px-5">
         <h2
-          class="text-4xl text-center font-medium flex items-center justify-center space-x-3 mb-32"
+          class="text-2xl md:text-4xl text-center font-medium flex items-center justify-center space-x-3 mb-12 md:mb-32"
         >
           <img src="../images/title_stick.png" class="w-8 h-8" />
           <span>Farming Timetable</span>

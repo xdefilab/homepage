@@ -12,7 +12,9 @@
         backgroundSize: '50px',
       }"
     >
-      <h3 class="text-2xl border-b border-gray-300 pb-3 mb-5 font-medium">
+      <h3
+        class="text-xl md:text-2xl border-b border-gray-300 pb-3 mb-5 font-medium"
+      >
         {{ cardTitle }}
       </h3>
       <div v-html="cardDescription"></div>
@@ -33,8 +35,8 @@
       class="side-card md:my-16 ml-16 mb-5 md:mb-0 md:ml-0"
       :class="{ 'md:text-right': reverse }"
     >
-      <h3 class="text-3xl font-medium mb-2">Stage {{ stage }}</h3>
-      <div class="text-2xl text-gray-600">{{ title }}</div>
+      <h3 class="text-xl md:text-3xl font-medium md:mb-2">Stage {{ stage }}</h3>
+      <div class="text-lg md:text-2xl text-gray-600">{{ title }}</div>
     </div>
   </div>
 </template>
