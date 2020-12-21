@@ -3,13 +3,15 @@
     <Header />
 
     <section class="hero relative overflow-hidden">
-      <div class="hero-bg w-full h-full text-center">
-        <img src="../images/logoBg.png" class="w-8/12 inline-block" alt="" />
+      <div class="hidden lg:block hero-bg w-full h-full text-center">
+        <img src="../images/logoBg.png" class="inline-block -ml-20" alt="" />
       </div>
       <div class="max-w-6xl mx-auto h-full relative z-10 px-5">
         <div class="flex items-center h-full md:w-1/2">
-          <div class="-mt-12">
-            <div class="text-6xl text-white font-medium leading-none">
+          <div class="md:-mt-12">
+            <div
+              class="text-4xl md:text-6xl text-white font-medium leading-none"
+            >
               A Well Established <br />
               DeFi Protocol Stack
             </div>
@@ -55,7 +57,7 @@
       :link="product.link"
     />
 
-    <div class="bg-gray-100 -mt-20 py-32">
+    <div class="bg-gray-100 md:-mt-20 py-16 md:py-32">
       <div
         class="max-w-6xl mx-auto px-5 flex flex-col space-y-8 md:space-x-10 md:space-y-0 md:flex-row"
       >
@@ -74,7 +76,7 @@
     <div class="bg-white text-gray-900 py-32">
       <div class="max-w-6xl mx-auto px-5">
         <h2
-          class="text-4xl text-center font-medium flex items-center justify-center space-x-3 mb-32"
+          class="text-2xl md:text-4xl text-center font-medium flex items-center justify-center space-x-3 mb-12 md:mb-32"
         >
           <img src="../images/title_stick.png" class="w-8 h-8" />
           <span>Farming Timetable</span>
@@ -227,13 +229,23 @@ export default defineComponent({
 
 .hero {
   background-image: linear-gradient(180deg, #8d10fb 0%, #0ec7bd 100%);
-  height: 690px;
+  @apply py-20;
+}
+
+@screen md {
+  .hero {
+    @apply py-0;
+    height: 690px;
+  }
 }
 
 .hero-bg {
   height: 564px;
-  padding-top: 120px;
   z-index: 1;
   position: absolute;
+  bottom: 0px;
+}
+
+.hero-bg img {
 }
 </style>
