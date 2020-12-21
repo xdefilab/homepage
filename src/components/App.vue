@@ -144,7 +144,7 @@ const products = [
               reward updated in every block.
               <br />`,
     image: productImage3,
-    link: `https://stream.kovan.xdefi.com`,
+    link: `https://halflife.kovan.xdefi.com`,
   },
 ]
 
