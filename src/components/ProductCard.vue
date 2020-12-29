@@ -7,7 +7,7 @@
       <div class="mt-2 md:mt-8">
         <a
           :href="link || '#'"
-          class="border border-gray-400 hover:bg-brand hover:border-brand hover:text-white px-3 py-1 text-xs uppercase md:py-3 md:text-base md:px-5"
+          class="border bg-brand text-white border-gray-400 hover:bg-transparent  hover:border-brand hover:text-brand px-3 py-1 text-xs uppercase md:py-3 md:text-base md:px-5"
           >{{ ready ? `launch ${title}` : 'release soon' }}</a
         >
       </div>
