@@ -4,7 +4,7 @@
       <a href="/" class='logo'>
         <img src="../images/logo.png" alt="pebbles" height='30'>
       </a>
-      <div class='contractIcons'>
+      <div class='contactIcons'>
         <a class='iconContent' href="ttps://www.chainnews.com/u/895866208677.htm" target="_blank">
           <div class='chainNews'></div>
         </a>
@@ -112,7 +112,7 @@ export default {
     display: none;
   }
 
-  .contractIcons {
+  .contactIcons {
     display: flex;
     justify-content: flex-end;
   }
@@ -148,18 +148,30 @@ export default {
     }
   @media (max-width: 768px) {
     .footer {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      z-index: 3001;
 
     }
-    .footer .footerContent {
-      display: none !important;
+    .footerContent{
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .contactIcons{
+      width: 60%;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+      justify-content: center;
+    }
+    .iconContent{
+      width: 2rem;
+      height: 2rem;
+      margin-bottom: 1rem;
     }
 
-    .footer .account {
-      display: block;
+    .iconContent .lang{
+      left: 1px;
+      bottom: 1px;
+    }
+    .popover{
+      left: -300%;
     }
   }
 </style>
