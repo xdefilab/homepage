@@ -24,7 +24,7 @@
           <font-awesome-icon :icon="['fab', 'telegram-plane']" size="lg"/>
           <span class='lang'>中</span>
         </a>
-        <a class='iconContent' href="https://t.me/xdefi" target="_blank">
+        <a class='iconContent' href="https://t.me/xdefilab" target="_blank">
           <font-awesome-icon :icon="['fab', 'telegram-plane']" size="lg"/>
           <span class='lang'>EN</span>
         </a>
