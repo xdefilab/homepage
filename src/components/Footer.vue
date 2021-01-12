@@ -5,7 +5,7 @@
         <img src="../images/logo.png" alt="pebbles" height='30'>
       </a>
       <div class='contactIcons'>
-        <a class='iconContent' href="ttps://www.chainnews.com/u/895866208677.htm" target="_blank">
+        <a class='iconContent' href="https://www.chainnews.com/u/895866208677.htm" target="_blank">
           <div class='chainNews'></div>
         </a>
         <a class='iconContent' href="https://xdefilab.medium.com/" target="_blank">
