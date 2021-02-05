@@ -172,7 +172,7 @@ const productCards = [
 
 const stages = [
   {
-    title: `From Block #1 to #40000`,
+    title: `From Block #1 to #80000`,
     cardTitle: `Early Stage Farming Pools`,
     cardDescription: `DEX Indexes<br/>
 Community Establishment<br/>
@@ -181,25 +181,25 @@ Medium Connections
     image: stage1,
   },
   {
-    title: `From Block #40001 to #120000`,
+    title: `From Block #80001 to #240000`,
     cardTitle: `Target Specific User Groups`,
     cardDescription: `NFT Indexes<br/>
-xPerp Audited`,
+xOption Audited`,
     image: stage2,
   },
   {
-    title: `From Block #120001 to #280000`,
+    title: `From Block #240001 to #560000`,
     cardTitle: `Permissionless Farming Pools`,
     cardDescription: `1st Stage Milestone Airdrop<br/>
-xPERP launch<br/>
-xNsure development`,
+xOption launch<br/>
+xSta development`,
     image: stage3,
   },
   {
-    title: `From Block #280001 to #600000`,
+    title: `From Block #560001 to #1200000`,
     cardTitle: `General User Groups`,
     cardDescription: `General DeFi / ETH Mining Users<br/>
-xNsure Audited`,
+xSta Audited`,
     image: stage4,
   },
 ]
