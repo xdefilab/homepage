@@ -16,11 +16,11 @@
               DeFi Protocol Stack
             </div>
             <div class="text-xl mt-12">
-              The xDex, xFarm, xHalfLife and DAO Protocol has been audited and
-              released on public Kovan Testnet.
+              The xDex, xFarm, xHalfLife and DAO Protocols have been audited and
+              released on Ethereum mainnet.
             </div>
             <div class="text-xl mt-5">
-              The xPerp and xNsure Protocol will release soon!
+              The xPerp and xOption Protocols will release soon!
             </div>
             <br />
             <br />
@@ -129,14 +129,14 @@ const products = [
     subtitle: `Trustless and Permissionless. Accept any standard and
                 non-deflating ERC20.`,
     image: productImage1,
-    link: `https://swap.kovan.xdefi.com`,
+    link: `https://swap.xdefi.com`,
   },
   {
     title: `XFarm: None for Pre-sale, Pre-mint`,
     subtitle: `Fair launch and Antifragile. XDEX token distributed 100% based on
               community consessus and participation.`,
     image: productImage2,
-    link: `https://farm.kovan.xdefi.com`,
+    link: `https://farm.xdefi.com`,
   },
   {
     title: `XHalfLife: Trustless Money Stream`,
@@ -146,7 +146,7 @@ const products = [
               reward updated in every block.
               <br />`,
     image: productImage3,
-    link: `https://halflife.kovan.xdefi.com`,
+    link: `https://halflife.xdefi.com`,
   },
 ]
 
@@ -156,7 +156,7 @@ const productCards = [
     subtitle: `Upvoting And Downvoting for Any<br/>Farming Pools`,
     image: productCardDao,
     ready: true,
-    link: `https://vote.kovan.xdefi.com`,
+    link: `https://vote.xdefi.com`,
   },
   {
     title: `XPerp`,
@@ -164,7 +164,7 @@ const productCards = [
     image: productCardXperp,
   },
   {
-    title: `XNsure`,
+    title: `XOption`,
     subtitle: `European Call And Put Option With<br/>AMM Pools`,
     image: productCardXnsure,
   },
