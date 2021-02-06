@@ -181,14 +181,14 @@ Medium Connections
     image: stage1,
   },
   {
-    title: `From Block #80001 to #240000`,
+    title: `From Block #80000 to #240000`,
     cardTitle: `Target Specific User Groups`,
     cardDescription: `NFT Indexes<br/>
 xOption Audited`,
     image: stage2,
   },
   {
-    title: `From Block #240001 to #560000`,
+    title: `From Block #240000 to #560000`,
     cardTitle: `Permissionless Farming Pools`,
     cardDescription: `1st Stage Milestone Airdrop<br/>
 xOption launch<br/>
@@ -196,7 +196,7 @@ xSta development`,
     image: stage3,
   },
   {
-    title: `From Block #560001 to #1200000`,
+    title: `From Block #560000 to #1200000`,
     cardTitle: `General User Groups`,
     cardDescription: `General DeFi / ETH Mining Users<br/>
 xSta Audited`,
