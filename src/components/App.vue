@@ -156,7 +156,7 @@ const productCards = [
     subtitle: `Upvoting And Downvoting for Any<br/>Farming Pools`,
     image: productCardDao,
     ready: true,
-    link: `https://vote.xdefi.com`,
+    link: `https://vote.kovan.xdefi.com`,
   },
   {
     title: `XPerp`,
@@ -191,8 +191,7 @@ xOption Audited`,
     title: `From Block #240000 to #560000`,
     cardTitle: `Permissionless Farming Pools`,
     cardDescription: `1st Stage Milestone Airdrop<br/>
-xOption launch<br/>
-xSta development`,
+xOption launch / xSta development`,
     image: stage3,
   },
   {
