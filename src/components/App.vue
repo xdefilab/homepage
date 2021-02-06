@@ -129,14 +129,14 @@ const products = [
     subtitle: `Trustless and Permissionless. Accept any standard and
                 non-deflating ERC20.`,
     image: productImage1,
-    link: `https://swap.xdefi.com`,
+    link: `https://swap.kovan.xdefi.com`,
   },
   {
     title: `XFarm: None for Pre-sale, Pre-mint`,
     subtitle: `Fair launch and Antifragile. XDEX token distributed 100% based on
               community consessus and participation.`,
     image: productImage2,
-    link: `https://farm.xdefi.com`,
+    link: `https://farm.kovan.xdefi.com`,
   },
   {
     title: `XHalfLife: Trustless Money Stream`,
@@ -146,7 +146,7 @@ const products = [
               reward updated in every block.
               <br />`,
     image: productImage3,
-    link: `https://halflife.xdefi.com`,
+    link: `https://halflife.kovan.xdefi.com`,
   },
 ]
 
