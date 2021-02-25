@@ -32,6 +32,8 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/vue-fontawesome": "^3.0.0-3",
-    "element-plus": "^1.0.1-beta.18"
+    "element-plus": "^1.0.1-beta.18",
+    "element-ui": "^2.15.1",
+    "vue-i18n": "^8.22.4"
   }
 }

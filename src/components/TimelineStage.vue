@@ -35,7 +35,7 @@
       class="side-card md:my-16 ml-16 mb-5 md:mb-0 md:ml-0"
       :class="{ 'md:text-right': reverse }"
     >
-      <h3 class="text-xl md:text-3xl font-medium md:mb-2">Stage {{ stage }}</h3>
+      <h3 class="text-xl md:text-3xl font-medium md:mb-2">{{font}} {{ stage }}</h3>
       <div class="text-lg md:text-2xl text-gray-600">{{ title }}</div>
     </div>
   </div>
@@ -72,6 +72,9 @@ export default defineComponent({
     reverse: {
       type: Boolean,
     },
+	font:{
+		type:String
+	}
   },
 
   setup({ stage, currentStage }) {
