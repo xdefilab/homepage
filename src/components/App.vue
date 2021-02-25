@@ -198,7 +198,7 @@
 					font:'登录'
 				},
 				{
-					title: `xHalfLife : 无需授信的资金流.`,
+					title: `xHalfLife : 无需授信的资金流`,
 					subtitle: `来自xFarm投票池、普通池和创始团队的任何XDEX代币都是通过xHalfLife协议进行解锁，可解锁奖励在每个区块中都会更新`,
 					image: productImage3,
 					link: `https://halflife.kovan.xdefi.com`,
