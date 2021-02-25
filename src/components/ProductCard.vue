@@ -8,7 +8,7 @@
         <a
           :href="link || '#'"
           class="border bg-brand text-white border-gray-400 hover:bg-transparent  hover:border-brand hover:text-brand px-3 py-1 text-xs uppercase md:py-3 md:text-base md:px-5"
-          >{{ ready ? `launch ${title}` : 'release soon' }}</a
+          >{{ ready ? font.split(',')[0] : font.split(',')[1] }}</a
         >
       </div>
     </div>
@@ -38,6 +38,9 @@ export default defineComponent({
     link: {
       type: String,
     },
+	font: {
+	  type: String,
+	},
   },
 })
 </script>

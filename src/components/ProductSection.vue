@@ -27,7 +27,7 @@
               }"
             >
               <a :href="link" class="button">
-                <span class="mr-1">Launch</span>
+                <span class="mr-1">{{font}}</span>
                 <svg
                   class="w-6 h-6"
                   width="1em"
@@ -89,6 +89,10 @@ export default defineComponent({
       type: String,
       required: true,
     },
+	font: {
+	  type: String,
+	  required: true,
+	},
   },
 
   setup() {
