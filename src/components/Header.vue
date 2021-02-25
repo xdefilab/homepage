@@ -56,7 +56,7 @@
 	.goapp {
 		display: block;
 		height: 38px;
-		line-height: 34px;
+		line-height: 38px;
 		margin-right: 16px;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -66,8 +66,11 @@
 		padding: 0 16px;
 
 		font-weight: 500;
-		color: #db2e7c;
-		border: solid 2px #db2e7c;
+		color: #fff;
+		background-color: #db2e7c;
+	}
+	.goapp:hover{
+		opacity: 0.8;
 	}
 
 	.language {

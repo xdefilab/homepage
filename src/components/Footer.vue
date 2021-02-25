@@ -136,7 +136,7 @@ export default {
 	  color: rgba(83, 84, 132, 1);
   }
   a.goapp{
-	  color: rgb(219, 46, 124);
+	  color: #fff;
   }
   .footerContent {
     padding: 10px 0;
@@ -229,7 +229,7 @@ export default {
 	.goapp {
 	    display: block;
 	    height: 32px;
-	    line-height: 28px;
+	    line-height: 32px;
 	    margin-right: 16px;
 	    overflow: hidden;
 	    text-overflow: ellipsis;
@@ -238,8 +238,7 @@ export default {
 	    border-radius: 30px;
 	    padding: 0px 10px;
 	    font-weight: 500;
-	    color: rgb(219, 46, 124);
-	    border: 2px solid rgb(219, 46, 124);
+	    
 	}
 	
   }

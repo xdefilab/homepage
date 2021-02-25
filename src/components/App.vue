@@ -164,20 +164,20 @@
 				],
 			productCards: [{
 					title: `DAO`,
-					subtitle: `赞成和反对任何社区提案<br/>挖矿池`,
+					subtitle: `赞成和反对任何社区提案的挖矿池`,
 					image: productCardDao,
 					ready: true,
 					link: `https://vote.kovan.xdefi.com`,
 					font:'登录DAO,即将发布'
 				},
 				{
-					title: `XPerp`,
+					title: `xPerp`,
 					subtitle: `AMM形式的永续合约`,
 					image: productCardXperp,
 					font:'登录XPerp,即将发布'
 				},
 				{
-					title: `XOption`,
+					title: `xOption`,
 					subtitle: `AMM挖矿池形式的欧式看涨和看跌期权`,
 					image: productCardXnsure,
 					font:'登录XOption,即将发布'
@@ -185,20 +185,20 @@
 			],
 			products: [{
 					title: `优化的多资产AMM Dex`,
-					subtitle: `无需信任和无许可的，接受任何标准的且非通缩型ERC20代币。`,
+					subtitle: `无需信任和无需许可的，接受任何标准的且非通缩型ERC20代币。`,
 					image: productImage1,
 					link: `https://swap.kovan.xdefi.com`,
 					font:'登录'
 				},
 				{
-					title: `XFarm : 无预售，无预挖`,
+					title: `xFarm : 无预售，无预挖`,
 					subtitle: `公平启动和抗脆弱性。XDEX代币基于社区的共识和参与度进行了100％的分配。`,
 					image: productImage2,
 					link: `https://farm.kovan.xdefi.com`,
 					font:'登录'
 				},
 				{
-					title: `XHalfLife : 无需授信的资金流.`,
+					title: `xHalfLife : 无需授信的资金流.`,
 					subtitle: `来自XFarm投票池、普通池和创始团队的任何XDEX代币都是通过xHalfLife协议进行解锁，可解锁奖励在每个区块中都会更新。`,
 					image: productImage3,
 					link: `https://halflife.kovan.xdefi.com`,
@@ -281,7 +281,7 @@
 						title: `9600000 tokens for block # 180001-420000, 40 each`,
 						cardTitle: `Permissionless Farming Pools`,
 						cardDescription: `1st Stage Milestone Airdrop<br/>
-			xOption launch / xSta development`,
+			xOption launch / xSTA development`,
 						image: stage3,
 						font:'Stage'
 					},
@@ -289,7 +289,7 @@
 						title: `9600000 tokens for block # 420001-900000, 20 each`,
 						cardTitle: `General User Groups`,
 						cardDescription: `General DeFi / ETH Mining Users<br/>
-			xSta Audited`,
+			xSTA Audited`,
 						image: stage4,
 						font:'Stage'
 					},
@@ -303,20 +303,20 @@
 					font:'LAUNCH DAO,RELEASE SOON'
 				},
 				{
-					title: `XPerp`,
+					title: `xPerp`,
 					subtitle: `Perpetual Protocol With<br/>Shadow AMM`,
 					image: productCardXperp,
 					font:'LAUNCH XPerp,RELEASE SOON'
 				},
 				{
-					title: `XOption`,
+					title: `xOption`,
 					subtitle: `European Call And Put Option With<br/>AMM Pools`,
 					image: productCardXnsure,
 					font:'LAUNCH XOption,RELEASE SOON'
 				},
 			],
 			products: [{
-					title: `XDex: Optimized Multi Asset AMM Dex`,
+					title: `xDex: Optimized Multi Asset AMM Dex`,
 					subtitle: `Trustless and Permissionless. Accept any standard and
 			    non-deflating ERC20.`,
 					image: productImage1,
@@ -324,7 +324,7 @@
 					font:'Launch'
 				},
 				{
-					title: `XFarm: None for Pre-sale, Pre-mint`,
+					title: `xFarm: None for Pre-sale, Pre-mint`,
 					subtitle: `Fair launch and Antifragile. XDEX token distributed 100% based on
 			  community consessus and participation.`,
 					image: productImage2,
@@ -332,11 +332,10 @@
 					font:'Launch'
 				},
 				{
-					title: `XHalfLife: Trustless Money Stream`,
-					subtitle: `Any XDEX from XFarm voting pool, ordinary pool, and founder 
+					title: `xHalfLife: Trustless Money Stream`,
+					subtitle: `Any XDEX from xFarm voting pool, ordinary pool, and founder 
 			  <br />
-			  teams' fund, is rewarded through xHalfLife protocol. Withdrawable
-			  reward updated in every block.
+			  teams' fund, is rewarded through xHalfLife protocol. Withdrawable reward will update in every block.
 			  <br />`,
 					image: productImage3,
 					link: `https://halflife.kovan.xdefi.com`,
