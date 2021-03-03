@@ -118,7 +118,7 @@
 					url:"https://docs.xdefi.com/cn/gong-gao/risk"
 				},{
 					name:'审计报告',
-					url:"https://github.com/xdefilab"
+					url:"https://github.com/xdefilab/xdefi-base/tree/master/audits"
 				},{
 					name:'知识库',
 					url:"https://docs.xdefi.com/cn"
