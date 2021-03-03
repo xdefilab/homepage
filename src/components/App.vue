@@ -244,7 +244,7 @@
 					url:"https://docs.xdefi.com/en/announcements/risk-disclosure"
 				},{
 					name:'Audit Report',
-					url:"https://github.com/xdefilab"
+					url:"https://github.com/xdefilab/xdefi-base/tree/master/audits"
 				},{
 					name:'Docs',
 					url:"https://docs.xdefi.com/en"
