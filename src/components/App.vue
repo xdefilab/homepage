@@ -53,6 +53,24 @@
 				</div>
 			</div>
 		</div>
+		
+		<div class="bg-white text-gray-900 py-32 links">
+			<div class="max-w-6xl mx-auto px-5 link-content">
+				<h2 class="text-2xl md:text-4xl text-center font-medium flex items-center justify-center space-x-3 mb-12 md:mb-32 mx-auto">
+					<img src="../images/title_stick.png" class="w-8 h-8" />
+					<span>{{language.font6}}</span>
+					<img src="../images/title_stick.png" class="w-8 h-8" />
+				</h2>
+				<div class="lists">
+					<a v-for="(item,id) in imgList" :key="id">
+						<img :src="item">
+					</a>
+					
+				</div>
+			
+				
+			</div>
+		</div>
 
 		<Footer :footer="language.footer"/>
 	</div>
@@ -79,6 +97,8 @@
 	import stage4 from '../images/stage_4.png'
 	import ProductCard from './ProductCard.vue'
 	import TimelineStage from './TimelineStage.vue'
+	import imgList from '../images/logos/logoLists.js';
+
 	const lan = {
 		zh: {
 			footer:[
@@ -118,7 +138,16 @@
 					url:"https://docs.xdefi.com/cn/gong-gao/risk"
 				},{
 					name:'审计报告',
-					url:"https://github.com/xdefilab/xdefi-base/tree/master/audits"
+					list:[
+						{
+							title:'慢雾审计',
+							url:'https://www.slowmist.com/security-audit-certificate.html?id=7b91209f526407299aee5f99688b62fb2c337a4316a6b305719a9e3cd5442348'
+						},{
+							title:'CertiK审计',
+							url:"https://certik.org/projects/xdefi"
+						}
+					]
+					
 				},{
 					name:'知识库',
 					url:"https://docs.xdefi.com/cn"
@@ -133,6 +162,7 @@
 			font4: '白皮书',
 			font4Link: 'https://docs.xdefi.com/cn/whitepaper',
 			font5: '挖矿时间表',
+			font6: '生态合作伙伴',
 			stages :[{
 						title: `从区块#1-60000将共计挖出9600000个XDEX代币，每个区块160个`,
 						cardTitle: `早期挖矿池`,
@@ -244,7 +274,15 @@
 					url:"https://docs.xdefi.com/en/announcements/risk-disclosure"
 				},{
 					name:'Audit Report',
-					url:"https://github.com/xdefilab/xdefi-base/tree/master/audits"
+					list:[
+						{
+							title:'SlowMist Audit',
+							url:'https://www.slowmist.com/en/security-audit-certificate.html?id=7b91209f526407299aee5f99688b62fb2c337a4316a6b305719a9e3cd5442348'
+						},{
+							title:'CertiK AUdit',
+							url:"https://certik.org/projects/xdefi"
+						}
+					]
 				},{
 					name:'Docs',
 					url:"https://docs.xdefi.com/en"
@@ -259,6 +297,7 @@
 			font4: 'WHITEPAPER',
 			font4Link: 'https://docs.xdefi.com/en/whitepaper',
 			font5: 'Farming Timetable',
+			font6: 'Ecosystem Partners',
 			stages: [{
 						title: `9600000 tokens for block # 1-60000, 160 each`,
 						cardTitle: `Early Stage Farming Pools`,
@@ -357,6 +396,7 @@
 		},
 		data() {
 			return {
+				imgList,
 				language: lan.en,//true en,false zh
 		
 			}
@@ -390,6 +430,41 @@
 		position: absolute;
 		bottom: 0px;
 	}
+	.links{
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+	}
+	.lists{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.lists a{
+		display: block;
+		width: 20%;
+		box-sizing: border-box;
+		padding: 0 10px;
+		margin-bottom: 20px;
+		
+	}
+	.lists img{
+		position: relative;
+		width: 100%;
+		border-radius: 10px;
+	}
 
 	.hero-bg img {}
+	@media (max-width: 768px) {
+		.lists a{
+			display: block;
+			width: 33.33%;
+			box-sizing: border-box;
+			padding: 0 10px;
+			margin-bottom: 20px;
+			
+		}
+	}
 </style>
