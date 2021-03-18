@@ -112,9 +112,22 @@
           <img src="../images/title_stick.png" class="w-8 h-8" />
         </h2>
         <div class="lists">
-          <a v-for="(item, id) in imgList" :key="id">
-            <img :src="item" />
-          </a>
+          <a><img src="../images/logo1.jpg" /></a>
+          <a><img src="../images/logo2.png" /></a>
+          <a><img src="../images/logo3.png" /></a>
+          <a><img src="../images/logo4.png" /></a>
+          <a><img src="../images/logo5.png" /></a>
+          <a><img src="../images/logo6.png" /></a>
+          <a><img src="../images/logo7.png" /></a>
+          <a><img src="../images/logo8.png" /></a>
+          <a><img src="../images/logo9.png" /></a>
+          <a><img src="../images/logo10.png" /></a>
+          <a><img src="../images/logo11.png" /></a>
+          <a><img src="../images/logo12.png" /></a>
+          <a><img src="../images/logo13.png" /></a>
+          <a><img src="../images/logo14.png" /></a>
+          <a><img src="../images/logo15.png" /></a>
+          
         </div>
       </div>
     </div>
@@ -140,8 +153,6 @@ import stage3 from '../images/stage_3.png'
 import stage4 from '../images/stage_4.png'
 import ProductCard from './ProductCard.vue'
 import TimelineStage from './TimelineStage.vue'
-import imgList from '../images/logos/logoLists.js'
-
 const lan = {
   zh: {
     footer: [
@@ -465,7 +476,6 @@ export default {
   },
   data() {
     return {
-      imgList,
       language: lan.en, //true en,false zh
     }
   },
