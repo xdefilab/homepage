@@ -2,7 +2,7 @@
   <div class="footer" height="78px">
 	  <div class="footerTop">
 		  <a href="/" class='logo'>
-		    <img src="../images/logo.png" alt="pebbles" height='30'>
+		    <img src="../images/logo.png" alt="pebbles" class="sm:h-6 lg:h-8">
 		  </a>
 		  <div class="right">
 			  <div v-for="(item,id) in footer" :key="id" :class="id==2?'p0':'p1'">
@@ -96,9 +96,6 @@ export default {
     display: inline;
   }
 
-  .logo img{
-    height: 30px;
-  }
   .footer {
     background: #161638;
     width: 100%;
