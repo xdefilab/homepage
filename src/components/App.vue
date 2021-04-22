@@ -127,7 +127,6 @@
           <a><img src="../images/logo13.png" /></a>
           <a><img src="../images/logo14.png" /></a>
           <a><img src="../images/logo15.png" /></a>
-          
         </div>
       </div>
     </div>
@@ -221,7 +220,7 @@ const lan = {
     ],
     font1: '完善的去中心化金融协议栈',
     font2:
-      'xDex，xFarm，xHalfLife和DAO协议已经通过审计，并将很快在以太坊主网上发布。',
+      'xDex，xFarm，xHalfLife和DAO协议已经通过审计，并已经在以太坊主网发布。',
     font3: 'xSTA和xOption协议也即将发布！',
     font4: '白皮书',
     font4Link: 'https://docs.xdefi.com/cn/whitepaper',
